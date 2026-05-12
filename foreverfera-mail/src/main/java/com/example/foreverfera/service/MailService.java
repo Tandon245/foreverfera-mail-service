@@ -59,8 +59,6 @@ public class MailService {
 
         SimpleMailMessage mail =
                 new SimpleMailMessage();
-
-        // IMPORTANT FIX
         mail.setFrom("info@foreverfera.com");
 
         mail.setTo("info@foreverfera.com");
