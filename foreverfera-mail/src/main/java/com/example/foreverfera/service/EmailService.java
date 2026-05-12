@@ -53,8 +53,8 @@ public class EmailService {
                 );
 
         CreateEmailOptions params = CreateEmailOptions.builder()
-                .from("onboarding@resend.dev")
-                .to("yourgmail@gmail.com")
+                .from("info@foreverfera.com")
+                .to("info@foreverfera.com")
                 .subject("New ForeverFera Enquiry")
                 .html(html)
                 .build();
